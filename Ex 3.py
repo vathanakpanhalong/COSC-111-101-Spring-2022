@@ -16,11 +16,11 @@ def remove_all_after(array,index):
 print (remove_all_after([1, 1, 2, 2, 2, 3, 3], 2))
 
 
-def remove_all_after(list, border):
-    for i in range(len(list)):
-        if list[i] == border:
-            return list[:i + 1]
-    return list
+def remove_all_after(numbers, border):
+    for i in range(len(numbers)):
+        if numbers[i] == border:
+            return numbers[:i + 1]
+    return numbers
 
 print(remove_all_after([1, 2, 3, 4, 5], 3))
             
