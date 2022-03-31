@@ -6,5 +6,5 @@ def replace_last(array):
     array=new_array
     return (array)
 
-x=replace_last([1, 2, 3, 4])
+x=replace_last([4,1,2,3])
 print (x)
