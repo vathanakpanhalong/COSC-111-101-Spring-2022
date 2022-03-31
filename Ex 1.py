@@ -8,3 +8,8 @@ def replace_last(array):
 
 print(replace_last([1, 2, 3, 4]))
 
+def replace_last(array):
+    new_array = array[-1:] + array[:-1]
+    return new_array
+
+print(replace_last([2, 3, 4, 1]))
