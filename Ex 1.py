@@ -1,3 +1,4 @@
+print ("ex 1")
 def replace_last(array):
     new_array=[]
     for x,i in enumerate(array):
