@@ -7,4 +7,4 @@ def index_power(array,index):
         return x
     x=array[index]**index
     return x
-print(index_power([1, 2, 3, 4], 2))
+print(index_power([1, 2, 3, 4], 3))
